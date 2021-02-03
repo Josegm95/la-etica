@@ -1,10 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import ScoreContextContainer from './Context/scoreContext';
 import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ScoreContextContainer>
+      <App />
+    </ScoreContextContainer>
   </React.StrictMode>,
   document.getElementById('root')
 );

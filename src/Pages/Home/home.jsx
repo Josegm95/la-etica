@@ -1,8 +1,10 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useContext } from 'react';
+import { ScoreContext } from '../../Context/scoreContext';
 import './home.scss';
 
-const Home = () => {
+const Home = ({ history }) => {
+  const { currentQuestion, restart } = useContext(ScoreContext);
+
   return (
     <section className="home">
       <h1>Bla Bla Bla</h1>
@@ -12,7 +14,19 @@ const Home = () => {
         eveniet eos molestiae, aperiam cupiditate ullam esse ducimus eius,
         explicabo officia necessitatibus provident.
       </p>
-      <Link to="/pregunta/1">Jugar</Link>
+      <button
+        onClick={() => {
+          history.push(`/pregunta/${currentQuestion}`);
+        }}
+        className="button"
+      >
+        {currentQuestion === 1 ? 'Entrar' : 'Continuar'}
+      </button>
+      {currentQuestion > 1 && (
+        <button onClick={restart} className="button">
+          Reiniciar
+        </button>
+      )}
     </section>
   );
 };
