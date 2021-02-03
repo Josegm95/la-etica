@@ -9,8 +9,8 @@ const ScoreContextContainer = ({ children }) => {
 
   const restart = () => {
     setCurrentQuestion(1);
-    setRacionalPoints(0);
-    setEmotionalPoints(0);
+    setRacionalPoints('0');
+    setEmotionalPoints('0');
     localStorage.setItem('currentQuestion', 1);
     localStorage.setItem('racionalPoints', 0);
     localStorage.setItem('emotionalPoints', 0);
@@ -18,8 +18,8 @@ const ScoreContextContainer = ({ children }) => {
 
   useEffect(() => {
     const localQuestion = parseInt(localStorage.getItem('currentQuestion'));
-    const localRacional = parseInt(localStorage.getItem('racionalPoints'));
-    const localEmotional = parseInt(localStorage.getItem('emotionalPoints'));
+    const localRacional = localStorage.getItem('racionalPoints');
+    const localEmotional = localStorage.getItem('emotionalPoints');
 
     if (localQuestion) {
       setCurrentQuestion(localQuestion);

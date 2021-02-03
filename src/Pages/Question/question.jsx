@@ -23,11 +23,13 @@ const Question = ({
   const handleSubmit = (event) => {
     event.preventDefault();
     if (answerSelected === question.correctAnswer) {
-      localStorage.setItem('racionalPoints', racionalPoints + 1);
-      setRacionalPoints((prev) => prev + 1);
+      const newValue = parseInt(racionalPoints) + 1;
+      localStorage.setItem('racionalPoints', newValue);
+      setRacionalPoints(newValue);
     } else {
-      localStorage.setItem('emotionalPoints', emotionalPoints + 1);
-      setEmotionalPoints((prev) => prev + 1);
+      const newValue = parseInt(emotionalPoints) + 1;
+      localStorage.setItem('emotionalPoints', newValue);
+      setEmotionalPoints(newValue);
     }
 
     setCurrentQuestion(parseInt(id) + 1);

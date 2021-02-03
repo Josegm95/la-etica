@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react';
+import React, { useContext } from 'react';
 import { ScoreContext } from '../../Context/scoreContext';
 import questions from '../../questions.json';
 import './score.scss';
@@ -6,20 +6,37 @@ import './score.scss';
 const Score = () => {
   const { racionalPoints, emotionalPoints } = useContext(ScoreContext);
 
-  useEffect(() => {
-    console.log(racionalPoints, emotionalPoints);
-  }, [racionalPoints, emotionalPoints]);
+  const calcWidth = (points) => {
+    if (points) {
+      const width = (parseInt(points) / questions.length) * 100;
+      return width;
+    }
+  };
 
   return (
     <div className="score-meter">
-      <div className="score-meter__label">
-        <span>R</span>
+      <div className="score-meter__item">
+        <span className="score-meter__title">R</span>
+        <div className="score-meter__bar">
+          <span
+            style={{
+              width: `${calcWidth(racionalPoints)}%`,
+              backgroundColor: 'green',
+            }}
+          />
+        </div>
         <p>Pensamiento racional</p>
       </div>
-      <span className="score-meter__rational" />
-      <span className="score-meter__emotional" />
-      <div className="score-meter__label">
-        <span>E</span>
+      <div className="score-meter__item">
+        <span className="score-meter__title">E</span>
+        <div className="score-meter__bar">
+          <span
+            style={{
+              width: `${calcWidth(emotionalPoints)}%`,
+              backgroundColor: 'red',
+            }}
+          />
+        </div>
         <p>Pensamiento emocional</p>
       </div>
     </div>
