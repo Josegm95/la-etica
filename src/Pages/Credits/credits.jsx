@@ -1,7 +1,15 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { ScoreContext } from '../../Context/scoreContext';
 import './credits.scss';
 
 const Credits = () => {
+  const {
+    currentQuestion,
+    racionalPoints,
+    emotionalPoints,
+    restart,
+  } = useContext(ScoreContext);
+
   return (
     <section className="page credits__container">
       <img
@@ -10,7 +18,7 @@ const Credits = () => {
         className="page__background"
       />
       <div className="page__content">
-        <h2>"Atrévete a pensar por tí mismo."</h2>
+        <h1>"Atrévete a pensar por tí mismo."</h1>
         <h2>Bibliography</h2>
         <ul>
           <li>
