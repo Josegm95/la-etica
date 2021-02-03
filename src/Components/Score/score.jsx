@@ -21,7 +21,7 @@ const Score = () => {
           <span
             style={{
               width: `${calcWidth(racionalPoints)}%`,
-              backgroundColor: 'green',
+              backgroundColor: '#20E8E2',
             }}
           />
         </div>
@@ -33,7 +33,7 @@ const Score = () => {
           <span
             style={{
               width: `${calcWidth(emotionalPoints)}%`,
-              backgroundColor: 'red',
+              backgroundColor: '#24FFBA',
             }}
           />
         </div>

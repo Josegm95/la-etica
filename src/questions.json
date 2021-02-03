@@ -1,7 +1,7 @@
 [
   {
     "title": "SITUACIÓN 1",
-    "paragraph": "Contexto. Cita médica: Una mujer llega con una dolencia en el cuerpo. Las opciones de acción son:",
+    "paragraph": "Una mujer llega con una dolencia en el cuerpo. Las opciones de acción son:",
     "options": [
       "Brindar lo que exige la empresa de la salud y los farmaceuticos que le alivian el dolor pero no lo sana o elimina.",
       "Suceder al paciente a otro colega para que otro se encargue de la receta médica.",
@@ -14,7 +14,7 @@
   },
   {
     "title": "SITUACIÓN 2",
-    "paragraph": "Contexto. Padre e hijo: Estás a punto de llevar a tu hijo a la escuela y le pides el favor de que use en cinturón de seguridad, tu hijo te pregunta ¿Por qué hay que usarlo?:",
+    "paragraph": "Estás a punto de llevar a tu hijo a la escuela y le pides el favor de que use en cinturón de seguridad, tu hijo te pregunta ¿Por qué hay que usarlo?:",
     "options": [
       "Porque lo exige la ley y hay que obedecer.",
       "Porque es por nuestra seguridad.",
@@ -27,7 +27,7 @@
   },
   {
     "title": "SITUACIÓN 3",
-    "paragraph": "Contexto. En una acera: En el camino hacia la escuela, para es en un supermercado para comprar algo y en la entrada al negocio te encuentras con una persona pidiendo dinero. ¿Qué haces?:",
+    "paragraph": "En el camino hacia la escuela, para es en un supermercado para comprar algo y en la entrada al negocio te encuentras con una persona pidiendo dinero. ¿Qué haces?:",
     "options": [
       "Pasas de largo y evitas mirarlo.",
       "Sientes lástima por su condición y decides darle dinero.",
@@ -40,7 +40,7 @@
   },
   {
     "title": "SITUACIÓN 4",
-    "paragraph": "Contexto. En caja: Al entrar al negocio y realizar tus compras, te das cuenta que, al momento de pagar, el empleado te da más dinero de lo que realmente es, ¿cómo actuarías?:",
+    "paragraph": "Al entrar al negocio y realizar tus compras, te das cuenta que, al momento de pagar, el empleado te da más dinero de lo que realmente es, ¿cómo actuarías?:",
     "options": [
       "Ignoras el hecho pensando que es suerte y sales del negocio.",
       "Decides ponerlo al tanto de su error y devuelve en excedente porque no quisieras que lo sancionen.",
@@ -53,7 +53,7 @@
   },
   {
     "title": "SITUACIÓN 5",
-    "paragraph": "Contexto. Al bajarse a dejar al hijo: A la hora de llegar a la escuela para dejar algo a tu hijo en la institución, ves que en la entrada hay dos niños peleando. ¿Qué haces?:",
+    "paragraph": "A la hora de llegar a la escuela para dejar algo a tu hijo en la institución, ves que en la entrada hay dos niños peleando. ¿Qué haces?:",
     "options": [
       "No te interesa porque no son tus hijos.",
       "Intervienes y los separas para procurar mediar y evitar la violencia.",

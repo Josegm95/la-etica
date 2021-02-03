@@ -2,10 +2,12 @@
   .question-page__title,
   .question-page__paragraph,
   .question-page__option {
-    font-size: 20px;
     margin-bottom: 1rem;
-    color: #fff;
-    text-shadow: 0 0 5px #000;
+  }
+
+  .question-page__paragraph,
+  .question-page__option {
+    font-size: 1.2em;
   }
 
   .question-page__option {
@@ -16,7 +18,7 @@
     cursor: pointer;
 
     &:hover {
-      color: #fff2a9;
+      text-shadow: 0 0 10px #fff;
     }
 
     input,
@@ -25,7 +27,7 @@
       cursor: pointer;
 
       &.checked {
-        color: #ffef94;
+        color: #31cfff;
       }
     }
   }
