@@ -36,7 +36,6 @@ const Question = ({
 
   useEffect(() => {
     if (currentQuestion) {
-      console.log(currentQuestion, parseInt(id));
       if (currentQuestion > questions.length) {
         history.push('/credits');
       } else if (currentQuestion === parseInt(id)) {
