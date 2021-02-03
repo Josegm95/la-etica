@@ -12,12 +12,10 @@ const Home = ({ history }) => {
         alt=""
         className="page__background"
       />
-      <h1>Bla Bla Bla</h1>
+      <h1>Filosofía moral</h1>
       <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur ipsum
-        quam assumenda suscipit doloribus eligendi exercitationem dolorum
-        eveniet eos molestiae, aperiam cupiditate ullam esse ducimus eius,
-        explicabo officia necessitatibus provident.
+        Vive tu vida como si cada una de tus acciones se convirtieran en una ley
+        universal.
       </p>
       <button
         onClick={() => {
