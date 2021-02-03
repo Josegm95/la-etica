@@ -1,3 +1,5 @@
+@import '../../Styles/mixins';
+
 .page.credits__container {
   background-color: rgba(0, 0, 0, 0.3);
 
@@ -17,6 +19,38 @@
     li {
       font-size: 1.2em;
       margin-bottom: 1rem;
+    }
+  }
+
+  .credits__result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem 0;
+
+    p {
+      font-size: 1.5rem;
+      text-shadow: 0 0 20px #fff;
+      margin-bottom: 1rem;
+      text-align: center;
+
+      span {
+        margin-right: 1rem;
+      }
+    }
+
+    .credits__result__rational {
+      color: #20e8e2;
+    }
+
+    .credits__result__emotional {
+      color: #24ffba;
+    }
+
+    @include from-tablet {
+      flex-direction: row;
+      justify-content: space-around;
+      margin: 4em 0;
     }
   }
 }

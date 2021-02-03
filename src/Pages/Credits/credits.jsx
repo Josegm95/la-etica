@@ -3,12 +3,7 @@ import { ScoreContext } from '../../Context/scoreContext';
 import './credits.scss';
 
 const Credits = () => {
-  const {
-    currentQuestion,
-    racionalPoints,
-    emotionalPoints,
-    restart,
-  } = useContext(ScoreContext);
+  const { racionalPoints, emotionalPoints } = useContext(ScoreContext);
 
   return (
     <section className="page credits__container">
@@ -19,6 +14,16 @@ const Credits = () => {
       />
       <div className="page__content">
         <h1>"Atrévete a pensar por tí mismo."</h1>
+        <div className="credits__result">
+          <p className="credits__result__rational">
+            <span>Respuestas con pensamiento Racionaal:</span>
+            {racionalPoints}
+          </p>
+          <p className="credits__result__emotional">
+            <span>Respuestas con pensamiento Emocional:</span>
+            {emotionalPoints}
+          </p>
+        </div>
         <h2>Bibliography</h2>
         <ul>
           <li>
