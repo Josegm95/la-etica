@@ -1,9 +1,21 @@
 .header {
+  position: relative;
+  z-index: 2;
   height: 3em;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  padding: 0 1em;
   background-color: #363636;
   color: #fff;
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 1);
+
+  i {
+    font-size: 2em;
+    color: #fff;
+
+    &:hover {
+      color: #fff679;
+    }
+  }
 }

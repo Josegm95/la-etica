@@ -50,15 +50,13 @@ const Question = ({
   }, [id, currentQuestion]);
 
   return question ? (
-    <section className="question-page">
-      <div className="question-page__background">
-        <img
-          src={`${process.env.PUBLIC_URL}/images/${question.backgroundImageName}`}
-          alt=""
-        />
-      </div>
-
-      <div className="question-page__content">
+    <section className="page question-page">
+      <img
+        src={`${process.env.PUBLIC_URL}/images/${question.backgroundImageName}`}
+        alt=""
+        className="page__background"
+      />
+      <div className="page__content">
         <h1 className="question-page__title">{question.title}</h1>
         <p className="question-page__paragraph">{question.paragraph} </p>
         <form onSubmit={handleSubmit}>
@@ -72,6 +70,7 @@ const Question = ({
                 onChange={() => {
                   setAnswerSelected(index + 1);
                 }}
+                required
               />
               <label
                 htmlFor={index}

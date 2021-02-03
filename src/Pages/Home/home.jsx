@@ -6,7 +6,12 @@ const Home = ({ history }) => {
   const { currentQuestion, restart } = useContext(ScoreContext);
 
   return (
-    <section className="home">
+    <section className="home page">
+      <img
+        src={`${process.env.PUBLIC_URL}/images/oficina.jpg`}
+        alt=""
+        className="page__background"
+      />
       <h1>Bla Bla Bla</h1>
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur ipsum
