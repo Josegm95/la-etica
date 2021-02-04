@@ -12,10 +12,10 @@ const Home = ({ history }) => {
         alt=""
         className="page__background"
       />
-      <h1>Filosofía moral</h1>
+      <h1>FILOSOFÍA MORAL</h1>
       <p>
-        Vive tu vida como si cada una de tus acciones se convirtieran en una ley
-        universal.
+        "Vive tu vida como si cada una de tus acciones se convirtieran en una
+        ley universal."
       </p>
       <button
         onClick={() => {

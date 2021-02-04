@@ -1,11 +1,11 @@
 [
   {
     "title": "SITUACIÓN 1",
-    "paragraph": "Una mujer llega con una dolencia en el cuerpo. Las opciones de acción son:",
+    "paragraph": "Cumples el rol de doctor y una mujer llega con una dolencia en el cuerpo. Las opciones de acción son:",
     "options": [
-      "Brindar lo que exige la empresa de la salud y los farmaceuticos que le alivian el dolor pero no lo sana o elimina.",
-      "Suceder al paciente a otro colega para que otro se encargue de la receta médica.",
-      "Recetarle un medicamento que trate el dolor y busque erradicarlo completamente como lo demandaría la ciencia y la ética médica.",
+      "Brindar lo que exige la empresa de la salud y los farmaceuticos que le alivian el dolor pero no lo sana o erradica.",
+      "Suceder el paciente a otro colega para que se encargue de la receta médica.",
+      "Recetarle un medicamento que trate el dolor y busque erradicarlo completamente como lo demandaría la ciencia médica.",
       "Generar una orden para medicamentos exigidos por sus superiores y, en otro momento, comunicarse personalmente con la paciente para recomendarle los medicamentos más deseables."
     ],
     "correctAnswer": 3,
@@ -27,7 +27,7 @@
   },
   {
     "title": "SITUACIÓN 3",
-    "paragraph": "En el camino hacia la escuela, para es en un supermercado para comprar algo y en la entrada al negocio te encuentras con una persona pidiendo dinero. ¿Qué haces?:",
+    "paragraph": "En el camino hacia la escuela, paras en un supermercado para comprar algo y en la entrada al negocio te encuentras con una persona pidiendo dinero. ¿Qué haces?:",
     "options": [
       "Pasas de largo y evitas mirarlo.",
       "Sientes lástima por su condición y decides darle dinero.",
@@ -53,11 +53,11 @@
   },
   {
     "title": "SITUACIÓN 5",
-    "paragraph": "A la hora de llegar a la escuela para dejar algo a tu hijo en la institución, ves que en la entrada hay dos niños peleando. ¿Qué haces?:",
+    "paragraph": "A la hora de llegar a la escuela para dejar algo a tu hijo en la institución educativa, ves que en la entrada hay dos niños peleando. ¿Qué haces?:",
     "options": [
       "No te interesa porque no son tus hijos.",
       "Intervienes y los separas para procurar mediar y evitar la violencia.",
-      "Ves que uno estás más lastimado que el otro y decides separarlos.",
+      "Ves que están muy lastimados y decides separarlos.",
       "Piensas que no hay que meterse en problemas ajenos."
     ],
     "correctAnswer": 2,

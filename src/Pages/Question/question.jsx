@@ -81,7 +81,7 @@ const Question = ({
               </label>
             </div>
           ))}
-          <button className="button">Seleccinar</button>
+          <button className="button">Seleccionar</button>
         </form>
       </div>
     </section>

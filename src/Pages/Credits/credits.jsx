@@ -36,6 +36,12 @@ const Credits = () => {
             puede y debe hacer, de sí mismo. Antropología pragmática y filosofía
             moral en Kant. Estudios de Filosofía, (52), 63-93.
           </li>
+          <li>
+            Maria Emma Grajales (Concepción de la idea y generación del
+            contenido)
+          </li>
+          <li>Andres Quiceno (Diseño)</li>
+          <li>Jose Gomez (Desarrollo)</li>
         </ul>
       </div>
     </section>
