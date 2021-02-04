@@ -16,7 +16,7 @@ const Credits = () => {
         <h1>"Atrévete a pensar por tí mismo."</h1>
         <div className="credits__result">
           <p className="credits__result__rational">
-            <span>Respuestas con pensamiento Racionaal:</span>
+            <span>Respuestas con pensamiento Racional:</span>
             {racionalPoints}
           </p>
           <p className="credits__result__emotional">
