@@ -8,7 +8,7 @@ const Credits = () => {
   return (
     <section className="page credits__container">
       <img
-        src={`${process.env.PUBLIC_URL}/images/credits.png`}
+        src={`${process.env.PUBLIC_URL}/images/credits.jpg`}
         alt=""
         className="page__background"
       />
